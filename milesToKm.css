@@ -1,0 +1,38 @@
+html, body { 
+    max-height: 100%;
+    max-width: 100%;
+    font-family:Arial, Helvetica, sans-serif 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container{
+    width: 100vh
+}
+
+#conversion {
+    text-align: center;
+    background-color: #F0FFEC;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#unit {
+    background-color:lightgray;
+    text-align: center;
+}
+
+input {
+    border: 1px solid lightgray;
+}
+
+button{
+    border: 1px black solid;
+    background-color: #F0FFEC;
+}
